@@ -2,9 +2,9 @@ package com.sistema_bancario;
 
 public class Historico {
     private String tipo;
-    private Double valor;
+    private Integer valor;
 
-    public Historico(String tipo,Double valor){
+    public Historico(String tipo,Integer valor){
         this.tipo = tipo;
         this.valor = valor;
     }
@@ -13,7 +13,9 @@ public class Historico {
         return tipo;
     }
 
-    public Double getValor() {
+    public Integer getValor() {
         return valor;
     }
+
+    
 }
